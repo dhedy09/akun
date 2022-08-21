@@ -1,0 +1,142 @@
+proxies:
+
+  - name: JUPITER VPN ID3
+    server: api.midtrans.com
+    port: 443
+    type: vless
+    uuid: 971992ce-4a73-4150-bdbd-da95ccb061bb
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: api.midtrans.com
+    network: ws
+    ws-opts:
+      path: wss://api.midtrans.com/xvless/
+      headers:
+        Host: id3.jupitervpn.me
+    udp: true
+  - name: FASTSSH ID1
+    server: api.midtrans.com
+    port: 443
+    type: vless
+    uuid: 81f1f510-3ca7-4734-8956-0f4fce670af5
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: api.midtrans.com
+    network: ws
+    ws-opts:
+      path: wss://api.midtrans.com/fastssh/jssaok/62f99c993c5af/
+      headers:
+        Host: id-1.vless.co
+    udp: true
+  - name: WHYVPN
+    server: api.midtrans.com
+    port: 443
+    type: vless
+    uuid: 964cda6f-85e3-4840-97c2-950386e4ba6c
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: api.midtrans.com
+    network: ws
+    ws-opts:
+      path: wss://api.midtrans.com/vless/
+      headers:
+        Host: dewabiz.kitu.xyz
+    udp: true
+  - name: JAGOANSSH
+    server: api.midtrans.com
+    port: 443
+    type: vless
+    uuid: eb75ff35-a2ba-4bef-9c63-c9553fc98289
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: api.midtrans.com
+    network: ws
+    ws-opts:
+      path: wss://api.midtrans.com/jagoanssh
+      headers:
+        Host: sgcvless.ipservers.xyz
+    udp: true
+
+  - name: SSHOCEAN CTB 02
+    server: api.midtrans.com
+    port: 443
+    type: vless
+    uuid: 68a59840-8d62-4d66-ba1d-98d04ff1958c
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: api.midtrans.com
+    network: ws
+    ws-opts:
+      path: wss://api.midtrans.com/websocket
+      headers:
+        Host: sg2-ws.xvless.xyz
+    udp: true
+
+  - name: SSHOCEAN SG2
+    server: api.midtrans.com
+    port: 443
+    type: vless
+    uuid: 2b69ffb0-a8e8-4824-8e95-9e2127f19058
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: api.midtrans.com
+    network: ws
+    ws-opts:
+      path: wss://api.midtrans.com/websocket
+      headers:
+        Host: sg2-ws.xvless.xyz
+    udp: true
+
+  - name: SSHOCEAN SG3
+    server: api.midtrans.com
+    port: 443
+    type: vless
+    uuid: 22f346fe-590d-4d4f-a9c5-2128a6f519d4
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: api.midtrans.com
+    network: ws
+    ws-opts:
+      path: wss://api.midtrans.com/websocket
+      headers:
+        Host: sg3-ws.xvless.xyz
+    udp: true
+
+  - name: SSHOCEAN SG4
+    server: api.midtrans.com
+    port: 443
+    type: vless
+    uuid: 2fa8c731-b595-4e10-b586-5cbd5f3dbe5c
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: api.midtrans.com
+    network: ws
+    ws-opts:
+      path: wss://api.midtrans.com/websocket
+      headers:
+        Host: sg4-ws.xvless.xyz
+    udp: true
+
+  - name: SSHOCEAN ID1
+    server: api.midtrans.com
+    port: 443
+    type: vless
+    uuid: b43bfe7c-919c-485f-820b-109ecfc64780
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: api.midtrans.com
+    network: ws
+    ws-opts:
+      path: wss://api.midtrans.com/websocket
+      headers:
+        Host: id1-ws.xvless.xyz
+    udp: true

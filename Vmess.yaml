@@ -1,0 +1,204 @@
+proxies:
+- name: SSH KIT
+  server: 104.17.2.81
+  port: 443
+  type: vmess
+  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: api.midtrans.com
+  network: ws
+  ws-opts:
+    path: wss://api.midtrans.com/sshkit/380213065/62f1280a6e924/
+    headers:
+      Host: sg1-v2ray.sshkit.org
+  udp: true
+    
+- name: VPN JANTIT
+  server: 104.17.2.81
+  port: 443
+  type: vmess
+  uuid: bb17c908-1d22-11ed-aaf8-00163c257d6e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: api.midtrans.com
+  network: ws
+  ws-opts:
+    path: wss://api.midtrans.com/vpnjantit
+    headers:
+      Host: sg9.vpnjantit.com
+  udp: true  
+  
+- name: FASTSSH ID IKD
+  server: 104.17.2.81
+  port: 443
+  type: vmess
+  uuid: 2ef64dc8-ca3c-45b8-ad5f-20871452143b
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: api.midtrans.com
+  network: ws
+  ws-opts:
+    path: wss://api.midtrans.com/fastssh/zczxc/62fb13f7edd4e/
+    headers:
+      Host: id-ikd.v2-ray.com
+  udp: true
+
+- name: FASTSSH ID BIZNET
+  server: 104.17.2.81
+  port: 443
+  type: vmess
+  uuid: 9e274a1a-7569-496b-a8a8-39a9e3cce7c7
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: api.midtrans.com
+  network: ws
+  ws-opts:
+    path: wss://api.midtrans.com/fastssh/mmm1/62fcc6c1db77c/
+    headers:
+      Host: id3.v2-ray.com
+  udp: true
+
+- name: OCEAN ID3 24 08
+  server: 104.17.2.81
+  port: 443
+  type: vmess
+  uuid: 8727cbe1-d08d-434e-b2b3-5be77aa2c160
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: api.midtrans.com
+  network: ws
+  ws-opts:
+    path: wss://api.midtrans.com/sshocean
+    headers:
+      Host: id3.v2rayserv.com
+  udp: true
+
+- name: OCEAN ID4 24 08
+  server: 104.17.2.81
+  port: 443
+  type: vmess
+  uuid: a183a1bd-a7e3-43b5-b5fa-93fecec942a9
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: api.midtrans.com
+  network: ws
+  ws-opts:
+    path: wss://api.midtrans.com/sshocean
+    headers:
+      Host: id4.securev2ray.com
+  udp: true
+
+- name: JAGOAN 24 08
+  server: 104.17.2.81
+  port: 443
+  type: vmess
+  uuid: 15105db4-44a2-4608-9de6-ad3b4c4b3936
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: api.midtrans.com
+  network: ws
+  ws-opts:
+    path: wss://api.midtrans.com/JAGOANSSH/
+    headers:
+      Host: sg5.vmes.xyz
+  udp: true
+
+- name: HOWDY 26 08
+  server: 104.17.2.81
+  port: 443
+  type: vmess
+  uuid: bedef1fb-9daa-4ca1-ac5e-03afaad628f4
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: api.midtrans.com
+  network: ws
+  ws-opts:
+    path: wss://api.midtrans.com/howdy
+    headers:
+      Host: v2ray1.udpgw.com
+  udp: true
+
+- name: JR TUN 20 08
+  server: 104.17.2.81
+  port: 443
+  type: vmess
+  uuid: 58d04a47-f755-434e-9fd3-a67500369025
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: api.midtrans.com
+  network: ws
+  ws-opts:
+    path: wss://api.midtrans.com/jrtunnel
+    headers:
+      Host: sg3vms.jrtunnel.us
+  udp: true
+
+- name: INFINITY
+  server: 104.17.2.81
+  port: 443
+  type: vmess
+  uuid: b8458948-a630-4e6d-809a-230b2223ff3d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: api.midtrans.com
+  network: ws
+  ws-opts:
+    path: wss://api.midtrans.com/xrayvws
+    headers:
+      Host: infinity.mantapxsl.my.id
+  udp: true
+
+- name: RACE ID
+  server: 104.17.2.81
+  port: 443
+  type: vmess
+  uuid: 689b8377-6c16-49fc-9128-140426defbcf
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: api.midtrans.com
+  network: ws
+  ws-opts:
+    path: wss://api.midtrans.com/racevpn
+    headers:
+      Host: id-full.privateip.net
+  udp: true
+
+- name: RACE SG2
+  server: 104.17.2.81
+  port: 443
+  type: vmess
+  uuid: 5b1fb8be-da9f-436a-a33a-18a5343567b7
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: api.midtrans.com
+  network: ws
+  ws-opts:
+    path: wss://api.midtrans.com/racevpn
+    headers:
+      Host: sg2-full.privateip.net
+  udp: true

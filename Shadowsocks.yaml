@@ -1,0 +1,109 @@
+proxies:
+
+- name: "SS WHYVPN ID"
+  type: ss
+  server: api.midtrans.com
+  port: 443
+  cipher: 2022-blake3-aes-128-gcm
+  password: gbO6EagxHS3NFyUsM4FIKg==:Jqp7V54DTV2TIBnfiY7S3g==
+  plugin: v2ray-plugin
+  udp: true
+  plugin-opts:
+   mode: websocket
+   tls: true
+   skip-cert-verify: true
+   sni: api.midtrans.com
+   path: ws://api.midtrans.com/ssws/
+   mux: false
+   headers:
+    host: dewabiz2.kitu.xyz
+
+- name: "SS WHYVPN SG"
+  type: ss
+  server: api.midtrans.com
+  port: 443
+  cipher: 2022-blake3-aes-128-gcm
+  password: IEu/em2c3pEpb1FlUD9zVQ==:tNnetdiypqSlMh/0E0tRrg==
+  plugin: v2ray-plugin
+  udp: true
+  plugin-opts:
+   mode: websocket
+   tls: true
+   skip-cert-verify: true
+   sni: api.midtrans.com
+   path: ws://api.midtrans.com/ssws/
+   mux: false
+   headers:
+    host: do1.kitu.xyz
+    
+- name: "SS WHYVPN NUSA"
+  type: ss
+  server: api.midtrans.com
+  port: 443
+  cipher: 2022-blake3-aes-128-gcm
+  password: hWkmEdVyga9p4GgomBEF+w==:uQ5LVLnkKNOHZYycVBEq8g==
+  plugin: v2ray-plugin
+  udp: true
+  plugin-opts:
+   mode: websocket
+   tls: true
+   skip-cert-verify: true
+   sni: api.midtrans.com
+   path: ws://api.midtrans.com/ssws/
+   mux: false
+   headers:
+    host: nusa1.kitu.xyz
+
+- name: "SS WHYVPN DO2"
+  type: ss
+  server: api.midtrans.com
+  port: 443
+  cipher: 2022-blake3-aes-128-gcm
+  password: AXBiiYP7h0poA2wA0nPEHg==:2vw/Vcsla845+hWlURRICg==
+  plugin: v2ray-plugin
+  udp: true
+  plugin-opts:
+   mode: websocket
+   tls: true
+   skip-cert-verify: true
+   sni: api.midtrans.com
+   path: ws://api.midtrans.com/ssws/
+   mux: false
+   headers:
+    host: do2.kitu.xyz
+    
+- name: "SS WHYVPN DO3"
+  type: ss
+  server: api.midtrans.com
+  port: 443
+  cipher: 2022-blake3-aes-128-gcm
+  password: fhiYCOxD26gvEUl2ElPW9w==:B0QL23xtqGTiDWPA+UiDAw==
+  plugin: v2ray-plugin
+  udp: true
+  plugin-opts:
+   mode: websocket
+   tls: true
+   skip-cert-verify: true
+   sni: api.midtrans.com
+   path: ws://api.midtrans.com/ssws/
+   mux: false
+   headers:
+    host: do3.kitu.xyz
+
+- name: "INFINITY"
+  type: ss
+  server: 104.17.2.81
+  port: 443
+  cipher: aes-128-gcm
+  password: b8458948-a630-4e6d-809a-230b2223ff3d
+  plugin: v2ray-plugin
+  udp: true
+  plugin-opts:
+   mode: websocket
+   tls: true
+   skip-cert-verify: true
+   sni: api.midtrans.com
+   path: ws://api.midtrans.com/xrayssws
+   mux: false
+   headers:
+    host: infinity.mantapxsl.my.id
