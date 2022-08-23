@@ -1,5 +1,5 @@
 proxies:
-- name: 🇸🇬TROJAN JAGOAN
+- name: 🇸🇬JAGOAN
   server: 104.17.2.81
   port: 443
   type: trojan
