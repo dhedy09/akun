@@ -1,5 +1,5 @@
 proxies:
-- name: SSH KIT
+- name: 🇸🇬SSH KIT
   server: 104.17.2.81
   port: 443
   type: vmess
