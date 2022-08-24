@@ -1,5 +1,5 @@
 proxies:
-- name: 🇸🇬JAGOANSSH
+- name: 🇸🇬JAGOANSSH SGCV
   server: 104.17.2.81
   port: 443
   type: vless
@@ -13,5 +13,37 @@ proxies:
     path: wss://api.midtrans.com/jagoanssh
     headers:
       Host: sgcvless.ipservers.xyz
+  udp: true
+  mux: true
+- name: 🇸🇬JAGOAN SG1
+  server: 104.17.2.81
+  port: 443
+  type: vless
+  uuid: 37035b39-fa30-44c5-b268-1f5cf1ac9d3e
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: api.midtrans.com
+  network: ws
+  ws-opts:
+    path: wss://api.midtrans.com/jagoanssh
+    headers:
+      Host: sg1vless.ipservers.xyz
+  udp: true
+  mux: true
+- name: 🇸🇬OCEAN SG1CTB
+  server: 104.17.2.81
+  port: 443
+  type: vless
+  uuid: 9f892a4a-5b4f-4bf7-acf8-c3f20bbde94f
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: api.midtrans.com
+  network: ws
+  ws-opts:
+    path: wss://api.midtrans.com/websocket
+    headers:
+      Host: sg1-ctb-ws.xvless.xyz
   udp: true
   mux: true
