@@ -1,5 +1,5 @@
 proxies:
-- name: 🇸🇬JAGOAN
+- name: 🇸🇬TRJAGOANSSH
   server: 104.17.2.81
   port: 443
   type: trojan
@@ -11,5 +11,19 @@ proxies:
     path: wss://api.midtrans.com/trojan
     headers:
       Host: sgcgo.ipservers.xyz
+  udp: true
+  mux: true
+- name: 🇮🇩BISNET
+  server: 104.17.2.81
+  port: 443
+  type: trojan
+  password: 3986dd90-2369-11ed-991e-1239d0255272
+  skip-cert-verify: true
+  sni: api.midtrans.com
+  network: ws
+  ws-opts:
+    path: wss://api.midtrans.com/howdy
+    headers:
+      Host: id5-trojan.bonds.id
   udp: true
   mux: true
